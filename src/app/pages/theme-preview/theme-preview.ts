@@ -10,6 +10,12 @@ import { CommonModule } from '@angular/common';
 export class ThemePreview {
   themes = [
     {
+      name: 'RunNote Custom Theme',
+      description: 'Sky Blue (#0EA5E9) with Inter font - Your custom theme',
+      prefix: 'runnote',
+      isCustom: true,
+    },
+    {
       name: 'Energetic Sport',
       description: 'Orange/Blue - Energy and activity meets trust and clarity',
       prefix: 'energetic',
