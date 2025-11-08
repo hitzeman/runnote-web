@@ -8,72 +8,265 @@
       </div>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Acceptance of Terms</h2>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
         <p class="text-gray-700 leading-relaxed">
-          By accessing and using RunNote, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to these terms, please do not use our service.
+          Welcome to RunNote. By accessing or using the RunNote service ("Service"), you agree to be bound by these Terms of Use ("Terms"). If you do not agree to these Terms, you may not use the Service.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-3">
+          These Terms constitute a legally binding agreement between you and RunNote. Please read them carefully.
         </p>
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Use License</h2>
-        <p class="text-gray-700 leading-relaxed mb-3">
-          Permission is granted to temporarily use RunNote for personal, non-commercial purposes. This is the grant of a license, not a transfer of title, and under this license you may not:
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">2. Description of Service</h2>
+        <p class="text-gray-700 leading-relaxed">
+          RunNote is an automated service that connects to your Strava account to analyze your running activities and generate AI-powered workout summaries. The Service:
         </p>
-        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
-          <li>Modify or copy the materials</li>
-          <li>Use the materials for any commercial purpose</li>
-          <li>Attempt to decompile or reverse engineer any software contained in RunNote</li>
-          <li>Remove any copyright or other proprietary notations from the materials</li>
-          <li>Transfer the materials to another person or mirror the materials on any other server</li>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4 mt-3">
+          <li>Analyzes your Strava running activities using artificial intelligence</li>
+          <li>Classifies workouts based on pace, heart rate, and lap data (e.g., tempo runs, easy runs, intervals)</li>
+          <li>Automatically generates and prepends smart summaries to your Strava activity descriptions</li>
+          <li>Operates automatically via Strava webhooks when you upload new activities</li>
         </ul>
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">User Accounts</h2>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">3. Strava Integration and Authorization</h2>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">3.1 OAuth Authorization</h3>
         <p class="text-gray-700 leading-relaxed">
-          When you create an account with us, you must provide accurate, complete, and current information. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account.
+          By clicking "Connect with Strava," you authorize RunNote to access your Strava account using OAuth 2.0 authentication. You grant RunNote permission to:
+        </p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4 mt-3">
+          <li>Read your activity data including distance, pace, heart rate, and lap information</li>
+          <li>Read and modify your activity descriptions to prepend AI-generated summaries</li>
+          <li>Receive webhook notifications when you create new activities</li>
+          <li>Store OAuth access and refresh tokens to maintain authorized access</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">3.2 Strava Terms Compliance</h3>
+        <p class="text-gray-700 leading-relaxed">
+          Your use of Strava through RunNote is also subject to <a href="https://www.strava.com/legal/terms" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">Strava's Terms of Service</a>. You must comply with both Strava's terms and these Terms.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">3.3 Revoking Access</h3>
+        <p class="text-gray-700 leading-relaxed">
+          You may revoke RunNote's access to your Strava account at any time by visiting <a href="https://www.strava.com/settings/apps" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">strava.com/settings/apps</a> and clicking "Revoke Access" for RunNote.
         </p>
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Strava Integration</h2>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">4. AI-Generated Content</h2>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">4.1 Nature of AI Analysis</h3>
         <p class="text-gray-700 leading-relaxed">
-          By connecting your Strava account to RunNote, you authorize us to access and sync your Strava data according to the permissions you grant. You can revoke this access at any time through your account settings.
+          RunNote uses artificial intelligence (OpenAI's GPT-4o-mini) to analyze your workout data. AI-generated summaries are based on algorithmic interpretation of your activity metrics and may not always be perfectly accurate.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">4.2 No Guarantee of Accuracy</h3>
+        <p class="text-gray-700 leading-relaxed">
+          While we strive for accuracy, RunNote does not guarantee that AI-generated workout classifications and summaries are always correct. You should review AI-generated content and are responsible for the accuracy of your activity descriptions on Strava.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">4.3 Preservation of Your Content</h3>
+        <p class="text-gray-700 leading-relaxed">
+          RunNote prepends AI-generated summaries to your existing activity descriptions and uses markers to avoid overwriting your content. However, you are responsible for maintaining backups of important data. RunNote is not liable for any loss or modification of your Strava activity descriptions.
         </p>
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Content</h2>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">5. User Responsibilities</h2>
+        <p class="text-gray-700 leading-relaxed mb-3">
+          You agree to:
+        </p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+          <li>Use the Service only for lawful purposes and in compliance with these Terms</li>
+          <li>Not attempt to circumvent, disable, or interfere with security features of the Service</li>
+          <li>Not use automated systems or software to extract data from the Service (except as the Service is designed to function)</li>
+          <li>Not reverse engineer, decompile, or disassemble any aspect of the Service</li>
+          <li>Maintain the security of your Strava account credentials</li>
+          <li>Not use the Service in any manner that could damage, disable, or impair the Service</li>
+          <li>Not attempt to gain unauthorized access to any portion of the Service</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">6. Intellectual Property Rights</h2>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">6.1 Your Content</h3>
         <p class="text-gray-700 leading-relaxed">
-          You retain all rights to your running data and activities uploaded to RunNote. By using our service, you grant us a license to use, store, and display this content as necessary to provide our services.
+          You retain all rights to your running data and Strava activities. By using the Service, you grant RunNote a limited, non-exclusive, royalty-free license to access, process, and modify your Strava activity descriptions solely for the purpose of providing the Service.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">6.2 RunNote's Property</h3>
+        <p class="text-gray-700 leading-relaxed">
+          The Service, including its software, algorithms, text, graphics, user interface, and other content, is owned by RunNote and is protected by copyright, trademark, and other intellectual property laws. You may not copy, modify, distribute, or create derivative works based on the Service.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">6.3 AI-Generated Summaries</h3>
+        <p class="text-gray-700 leading-relaxed">
+          AI-generated summaries created by RunNote are provided to you for use on your Strava activities. Once written to your Strava account, these summaries become part of your Strava content and are subject to Strava's terms.
         </p>
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Disclaimer</h2>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">7. Use License and Restrictions</h2>
         <p class="text-gray-700 leading-relaxed">
-          The materials on RunNote are provided on an 'as is' basis. RunNote makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+          Subject to your compliance with these Terms, RunNote grants you a personal, non-exclusive, non-transferable, revocable license to use the Service for your personal, non-commercial use. You may not:
+        </p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4 mt-3">
+          <li>Use the Service for any commercial purpose without written permission</li>
+          <li>Sublicense, sell, rent, lease, or otherwise transfer your rights to use the Service</li>
+          <li>Share your Strava authorization or OAuth tokens with third parties</li>
+          <li>Remove, alter, or obscure any proprietary notices on the Service</li>
+          <li>Use the Service to process data for individuals other than yourself</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">8. Service Availability and Modifications</h2>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">8.1 Service Availability</h3>
+        <p class="text-gray-700 leading-relaxed">
+          RunNote strives to provide reliable service but does not guarantee uninterrupted or error-free operation. The Service may be temporarily unavailable due to maintenance, updates, or factors beyond our control (e.g., Strava API availability, third-party service outages).
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">8.2 Service Modifications</h3>
+        <p class="text-gray-700 leading-relaxed">
+          RunNote reserves the right to modify, suspend, or discontinue the Service (or any part thereof) at any time, with or without notice. We are not liable to you or any third party for any modification, suspension, or discontinuation of the Service.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">8.3 Updates to AI Models</h3>
+        <p class="text-gray-700 leading-relaxed">
+          We may update the AI models and algorithms used to analyze your workouts. These updates may change the nature of workout classifications and summaries without prior notice.
         </p>
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Limitations</h2>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">9. Disclaimers</h2>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">9.1 "AS IS" Basis</h3>
         <p class="text-gray-700 leading-relaxed">
-          In no event shall RunNote or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use RunNote.
+          THE SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">9.2 No Medical or Training Advice</h3>
+        <p class="text-gray-700 leading-relaxed">
+          RunNote provides informational workout summaries only and does not provide medical advice, training advice, or professional fitness guidance. Consult with qualified professionals before making fitness or health decisions. RunNote is not responsible for any injuries, health issues, or other damages resulting from your use of the Service or reliance on AI-generated summaries.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">9.3 Third-Party Services</h3>
+        <p class="text-gray-700 leading-relaxed">
+          RunNote integrates with third-party services (Strava, OpenAI, Microsoft Azure). We are not responsible for the availability, accuracy, security, or reliability of these third-party services. Your use of third-party services is subject to their respective terms and policies.
         </p>
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Modifications</h2>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">10. Limitation of Liability</h2>
         <p class="text-gray-700 leading-relaxed">
-          RunNote may revise these terms of service at any time without notice. By using this service, you are agreeing to be bound by the then current version of these terms of service.
+          TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL RUNNOTE, ITS AFFILIATES, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUE, DATA, OR USE, WHETHER IN AN ACTION IN CONTRACT, TORT, OR OTHERWISE, ARISING OUT OF OR IN CONNECTION WITH:
+        </p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4 mt-3">
+          <li>Your use or inability to use the Service</li>
+          <li>Any inaccuracy, error, or omission in AI-generated summaries</li>
+          <li>Any unauthorized access to or modification of your Strava data</li>
+          <li>Any interruption or cessation of the Service</li>
+          <li>Any bugs, viruses, or other harmful components transmitted through the Service</li>
+          <li>Any loss or damage to your Strava activity descriptions or data</li>
+        </ul>
+        <p class="text-gray-700 leading-relaxed mt-3">
+          IN NO EVENT SHALL RUNNOTE'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES EXCEED THE AMOUNT YOU PAID TO RUNNOTE IN THE TWELVE (12) MONTHS PRIOR TO THE EVENT GIVING RISE TO LIABILITY (CURRENTLY $0, AS RUNNOTE IS A FREE SERVICE).
         </p>
       </section>
 
       <section>
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Contact Information</h2>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">11. Indemnification</h2>
         <p class="text-gray-700 leading-relaxed">
-          If you have any questions about these Terms of Use, please
+          You agree to indemnify, defend, and hold harmless RunNote and its affiliates, officers, directors, employees, and agents from and against any claims, liabilities, damages, losses, costs, or expenses (including reasonable attorneys' fees) arising out of or relating to:
+        </p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4 mt-3">
+          <li>Your use of the Service</li>
+          <li>Your violation of these Terms</li>
+          <li>Your violation of any rights of another party</li>
+          <li>Your Strava account or data</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">12. Termination</h2>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">12.1 Your Right to Terminate</h3>
+        <p class="text-gray-700 leading-relaxed">
+          You may terminate your use of the Service at any time by revoking RunNote's access to your Strava account at <a href="https://www.strava.com/settings/apps" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">strava.com/settings/apps</a>.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">12.2 Our Right to Terminate</h3>
+        <p class="text-gray-700 leading-relaxed">
+          RunNote may terminate or suspend your access to the Service at any time, with or without cause, with or without notice. Reasons for termination may include, but are not limited to:
+        </p>
+        <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4 mt-3">
+          <li>Violation of these Terms</li>
+          <li>Requests by law enforcement or other government agencies</li>
+          <li>Discontinuation or material modification of the Service</li>
+          <li>Unexpected technical or security issues</li>
+          <li>Abuse or suspected fraudulent activity</li>
+        </ul>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">12.3 Effect of Termination</h3>
+        <p class="text-gray-700 leading-relaxed">
+          Upon termination, your right to use the Service will immediately cease. RunNote will delete your OAuth tokens from our systems. Previously generated summaries on your Strava activities will remain unless you manually remove them.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">13. Privacy</h2>
+        <p class="text-gray-700 leading-relaxed">
+          Your privacy is important to us. Please review our <a routerLink="/privacy" class="text-blue-600 hover:text-blue-800 underline">Privacy Policy</a> to understand how we collect, use, and protect your information. By using the Service, you agree to our Privacy Policy.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">14. Changes to These Terms</h2>
+        <p class="text-gray-700 leading-relaxed">
+          RunNote reserves the right to modify these Terms at any time. We will notify you of material changes by posting the updated Terms on this page and updating the "Last updated" date. Your continued use of the Service after changes are posted constitutes your acceptance of the modified Terms.
+        </p>
+        <p class="text-gray-700 leading-relaxed mt-3">
+          We encourage you to review these Terms periodically. If you do not agree to the modified Terms, you must stop using the Service.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">15. Governing Law and Dispute Resolution</h2>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">15.1 Governing Law</h3>
+        <p class="text-gray-700 leading-relaxed">
+          These Terms shall be governed by and construed in accordance with the laws of the jurisdiction where RunNote operates, without regard to its conflict of law provisions.
+        </p>
+
+        <h3 class="text-xl font-semibold text-gray-800 mb-3 mt-4">15.2 Dispute Resolution</h3>
+        <p class="text-gray-700 leading-relaxed">
+          Any disputes arising out of or relating to these Terms or the Service shall first be attempted to be resolved through good-faith negotiation. If negotiation is unsuccessful, disputes may be resolved through binding arbitration or in the courts of competent jurisdiction.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">16. Severability</h2>
+        <p class="text-gray-700 leading-relaxed">
+          If any provision of these Terms is found to be invalid, illegal, or unenforceable, the remaining provisions shall continue in full force and effect.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">17. Entire Agreement</h2>
+        <p class="text-gray-700 leading-relaxed">
+          These Terms, together with our Privacy Policy, constitute the entire agreement between you and RunNote regarding the Service and supersede all prior agreements and understandings.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">18. Contact Information</h2>
+        <p class="text-gray-700 leading-relaxed">
+          If you have any questions, concerns, or feedback about these Terms of Use, please
           <a routerLink="/contact" class="text-blue-600 hover:text-blue-800 underline">contact us</a>.
         </p>
       </section>
