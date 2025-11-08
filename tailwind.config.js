@@ -3,6 +3,21 @@ module.exports = {
   content: [
     "./src/**/*.{html,ts}",
   ],
+  safelist: [
+    // Generate all color classes for theme preview
+    {
+      pattern: /bg-(energetic|modern|nature|bold)-(primary|secondary|accent)-(50|100|200|300|400|500|600|700|800|900)/,
+    },
+    {
+      pattern: /text-(energetic|modern|nature|bold)-(primary|secondary|accent)-(50|100|200|300|400|500|600|700|800|900)/,
+    },
+    {
+      pattern: /border-(energetic|modern|nature|bold)-(primary|secondary|accent)-(50|100|200|300|400|500|600|700|800|900)/,
+    },
+    {
+      pattern: /hover:bg-(energetic|modern|nature|bold)-(primary|secondary|accent)-(50|100|200|300|400|500|600|700|800|900)/,
+    },
+  ],
   theme: {
     extend: {
       colors: {
